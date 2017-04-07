@@ -83,10 +83,9 @@ body {
 	color: white;
 }
 
-.active li {
 	font-variant: none;
 	text-transform: uppercase;
-	background-color: #d07686;
+	background-color: #d96177;
 }
 
 @media all and (min-width: 760px) and (max-width: 879px) {

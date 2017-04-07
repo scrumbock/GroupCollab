@@ -6,6 +6,7 @@ body {
 	background-color: grey;
 	padding: 0;
 	margin: 0;
+	font-family: sans-serif;
 }
 
 @import url(https://fonts.googleapis.com/css?family=Roboto+Slab);
@@ -15,9 +16,12 @@ body {
 }
 
 .header {
-	height: 180px;
 	background-color: #df97a4;
-	padding: 20px;
+}
+
+.title, .nav {
+	background-color: #df97a4;
+	width: 100%;
 }
 
 .cake {
@@ -26,12 +30,53 @@ body {
 	width: 200px;
 	background-size: 100% 100%;
 	float: left;
-	margin-right: 70px;
+	margin: 10px 30px 0 20px;
 }
 
 .title {
 	color: white;
 	font-family: 'Roboto Slab', sans-serif;
 	font-weight: bold;
-	font-size: 36px;
+	font-size: 40px;
+	padding-top: 20px;
+}
+
+.nav ul {
+	list-style-type: none;
+	font-size: 20px;
+}
+
+.nav li {
+	display: inline-block;
+	margin: 10px 20px 10px 0;
+	border: 2px solid white;
+	padding: 5px 10px;
+	text-align: center;
+	min-width: 15%;
+}
+
+.nav li:hover {
+	background-color: pink;
+	font-variant: none;
+	text-transform: uppercase;
+}
+
+.nav a {
+	text-decoration: none;
+	color: white;
+	font-variant: small-caps;
+}
+
+.donate-button {
+	background-color: white;
+	font-weight: bold;
+}
+
+.donate-button a {
+	color: black;
+}
+
+.active a {
+	font-variant: none;
+	text-transform: uppercase;
 }

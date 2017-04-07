@@ -1,0 +1,37 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: grey;
+	padding: 0;
+	margin: 0;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab);
+
+.container {
+	background-color: white;
+}
+
+.header {
+	height: 180px;
+	background-color: #df97a4;
+	padding: 20px;
+}
+
+.cake {
+	background-image: url(https://img.clipartfox.com/fdfa054b8cb0ac6d245a06e8ac0accc2_free-happy-birthday-cake-image-happy-birthday-cake-clipart-transparent_2627-2846.png);
+	height: 200px;
+	width: 200px;
+	background-size: 100% 100%;
+	float: left;
+	margin-right: 70px;
+}
+
+.title {
+	color: white;
+	font-family: 'Roboto Slab', sans-serif;
+	font-weight: bold;
+	font-size: 36px;
+}

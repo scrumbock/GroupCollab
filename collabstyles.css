@@ -41,7 +41,6 @@ body {
 	color: white;
 	font-family: 'Roboto Slab', sans-serif;
 	font-weight: bold;
-<<<<<<< HEAD
 	font-size: 40px;
 	padding-top: 20px;
 }
@@ -165,9 +164,6 @@ body {
 		color: white;
 	}
 }
-=======
-	font-size: 36px;
-}
 
 /*footer stylings*/
 .footer {
@@ -211,5 +207,3 @@ h3 {
 	font-size: 26px;
 	margin-left: 50%;
 }
-
->>>>>>> footer

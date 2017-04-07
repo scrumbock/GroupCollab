@@ -72,10 +72,15 @@ body {
 	font-variant: small-caps;
 }
 
-.donate-button li{
+.donate-button li {
 	background-color: white;
 	font-weight: bold;
 	color: black;
+}
+
+.donate-button li:hover {
+	background-color: pink;
+	color: white;
 }
 
 .active li {
@@ -126,6 +131,11 @@ body {
 		margin: 0 auto;
 		width: 100px;
 		height: 100px;
+	}
+	.active li {
+		background: none;
+		font-variant: small-caps;
+		text-transform: none;
 	}
 	.header {
 		padding-top: 20px;

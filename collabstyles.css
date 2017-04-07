@@ -57,7 +57,7 @@ body {
 	font-family: 'Roboto Slab', sans-serif;
 	font-weight: bold;
 	font-size: 40px;
-	padding-top: 20px;
+	padding-top: 10px;
 }
 
 .nav ul {
@@ -67,7 +67,7 @@ body {
 
 .nav li {
 	display: inline-block;
-	margin: 10px 20px 10px 0;
+	margin: 5px 20px 5px 0;
 	border: 2px solid white;
 	padding: 5px 10px;
 	text-align: center;

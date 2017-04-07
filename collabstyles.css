@@ -83,6 +83,7 @@ body {
 	color: white;
 }
 
+.active li {
 	font-variant: none;
 	text-transform: uppercase;
 	background-color: #d96177;

@@ -16,10 +16,6 @@ body {
 	margin: 175px auto 200px auto;
 }
 
-.container div {
-	background-color: white;
-}
-
 .hamburglar {
 	display: none;
 }
@@ -41,14 +37,10 @@ body {
 	width: 100%;
 }
 
-.clearfixer {
-	clear: both;
-}
-
 .cake {
 	background-image: url(https://img.clipartfox.com/fdfa054b8cb0ac6d245a06e8ac0accc2_free-happy-birthday-cake-image-happy-birthday-cake-clipart-transparent_2627-2846.png);
-	height: 200px;
-	width: 200px;
+	height: 150px;
+	width: 150px;
 	background-size: 100% 100%;
 	float: left;
 	margin: 10px 30px 0 20px;
@@ -223,17 +215,53 @@ h3 {
 	margin-left: 50%;
 }
 
-.blog, .sidebar {
-	padding: 20px;
+.blog-article, .sidebar {
+	background-color: white;
 }
 
 .blog {
-	width: 72%;
-	margin: 0;
 	float: left;
+	width: 70%;
+	margin-bottom: 30px;
 }
 
 .sidebar {
 	width: 26%;
 	float: right;
+	margin-bottom: 10px;
+	padding: 5px;
+	font-size: 12px;
+}
+
+.blog-holder {
+	height: 100px;
+	margin: 0;
+}
+
+.blog-title {
+	font-family: 'Roboto Slab', sans-serif;
+	text-align: center;
+	font-size: 20px;
+	padding-bottom: 7px;
+}
+
+.blog-article {
+	padding: 20px;
+}
+
+.author {
+	width: 100px;
+	height: 100px;
+	margin: 10px auto;
+	background-size: 100% 100%;
+	background-image: url(images/bridget.jpg);
+}
+
+h5 {
+	margin: 0;
+	font-size: 15px;
+}
+
+.sidebar ul {
+	font-size: 14px;
 }

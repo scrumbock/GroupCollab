@@ -12,6 +12,11 @@ body {
 @import url(https://fonts.googleapis.com/css?family=Roboto+Slab);
 
 .container {
+	width: 90%;
+	margin: 100px auto 200px auto;
+}
+
+.container div {
 	background-color: white;
 }
 
@@ -19,13 +24,25 @@ body {
 	display: none;
 }
 
-.header {
+.header-big {
+	position: fixed;
+	width: 100%;
+	top: 0;
+}
+
+.pink-top {
 	background-color: #df97a4;
+	width: 100%;
 }
 
 .title, .nav {
 	background-color: #df97a4;
+	height: 100%;
 	width: 100%;
+}
+
+.clearfixer {
+	clear: both;
 }
 
 .cake {
@@ -197,13 +214,26 @@ body {
 .Footer-Nav-Menu li a:hover:not(.active) {
     background-color: #df97a4;
 }
-.active {
-    background-color: lightblue;
-}
+
 h3 {
 	color: white;
 	font-family: 'Roboto Slab', sans-serif;
 	font-weight: bold;
 	font-size: 26px;
 	margin-left: 50%;
+}
+
+.blog, .sidebar {
+	padding: 20px;
+}
+
+.blog {
+	width: 72%;
+	margin: 0;
+	float: left;
+}
+
+.sidebar {
+	width: 26%;
+	float: right;
 }

@@ -71,10 +71,15 @@ body {
 	font-variant: small-caps;
 }
 
-.donate-button li{
+.donate-button li {
 	background-color: white;
 	font-weight: bold;
 	color: black;
+}
+
+.donate-button li:hover {
+	background-color: pink;
+	color: white;
 }
 
 .active li {

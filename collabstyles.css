@@ -77,9 +77,10 @@ body {
 	color: black;
 }
 
-.active a {
+.active li {
 	font-variant: none;
 	text-transform: uppercase;
+	background-color: #d07686;
 }
 
 @media all and (min-width: 760px) and (max-width: 879px) {

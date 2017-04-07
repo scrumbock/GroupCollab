@@ -82,12 +82,44 @@ body {
 	text-transform: uppercase;
 }
 
-@media all and (max-width: 879px) {
+@media all and (min-width: 760px) and (max-width: 879px) {
+	.nav li {
+		display: inline;
+	}
+	.nav {
+		padding-bottom: 10px;
+	}
+}
 
+@media all and (max-width: 760px) {
+	.cake {
+		width: 150px;
+		height: 150px;
+	}
+	.nav li {
+		font-size: 13px;
+		margin: 0 5px 10px 0;
+	}
+}
+
+@media all and (max-width: 600px) {
+	.cake {
+		width: 115px;
+		height: 115px;
+	}
+	.title {
+		font-size: 30px;
+	}
+	.nav li {
+		font-size: 11px;
+		min-width: auto;
+		margin: 0 5px 10px 0;
+	}
 }
 
 @media all and (max-width: 480px) {
 	.cake {
+		display: block;
 		float: none;
 		margin: 0 auto;
 		width: 100px;

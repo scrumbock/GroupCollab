@@ -268,7 +268,15 @@ footer .cupcake-left {
 	margin: 10px;
 	background-repeat: no-repeat;
 	background-size: cover;
-	line-height: 100px;
+	transition-property: width, height;
+    transition-duration: 2s;
+    opacity: .5;
+}
+
+.photo-container div:hover {
+    width: 350px;
+    height: 350px;
+    opacity: 1;
 }
 
 .one {

@@ -255,9 +255,49 @@ footer .cupcake-left {
 
 /*gallery stylings */
 
+.photo-container {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
 
+.photo-container div {
+	width: 30%;
+	height: 300px;
+	border: 3px solid lightblue;
+	margin: 10px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	line-height: 100px;
+}
 
-
+.one {
+	background-image: url("https://static2.stuff.co.nz/1355356453/455/8075455.jpg");
+}
+.two {
+	background-image: url("http://2.bp.blogspot.com/_6XzT-Th0ewE/TF12krrY0bI/AAAAAAAAArA/5lVCxzbZTPI/s1600/P1070428.JPG");
+}
+.three {
+	background-image: url("http://wkow.images.worldnow.com/images/12451060_G.jpg");
+}
+.four {
+	background-image: url("http://lh5.ggpht.com/-eomVl8aBRS0/Tg0ulGs7cdI/AAAAAAAAFe0/ySV2mKOXSZs/027%252520W_thumb%25255B1%25255D.jpg?imgmax=800");
+}
+.five {
+	background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQ37yeNHGbYZJvF1ecGInFgGsnxjrlyPrSZFWOIRUSQuBxavVi_g");
+}
+.six {
+	background-image: url("http://cdn1-www.momtastic.com/assets/uploads/2016/09/the-birthday-party-project-2-opt.jpg");
+}
+.seven {
+	background-image: url("http://lh6.ggpht.com/-qep4Ce6Q7Ww/Tg0ummvWMZI/AAAAAAAAFe8/q9tw9rpaLdI/227-edit%252520W_thumb.jpg?imgmax=800");
+}
+.eight {
+	background-image: url("http://cdn.newsapi.com.au/image/v1/58f35481622d1a4c4c502cbd2bb6caae?width=1024");
+}
+.nine {
+	background-image: url("http://static.kidspot.com.au/cm_assets/1238/race_track476x290-20150421122123.jpg~q75,dx330y198u1r1gg,c--.jpg");
+}
 /*blog stylings */
 
 .blog-article, .sidebar {

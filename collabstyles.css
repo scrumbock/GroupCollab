@@ -193,6 +193,8 @@ body {
 		color: white;
 	}
 	.container {
+		display:flex;
+		justify-content: center;
 		margin-top: 240px;
 	}
 }
@@ -239,12 +241,21 @@ footer a:hover {
 	font-weight: bold;
 	color: #a8064c;
 }
+footer a.active {
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #a8064c;
+}
 
 footer .cupcake-left {
 	width: 20%;
 	max-height: 50px;
 }
 /*end footer stylings*/
+
+/*gallery stylings */
+
+
 
 
 /*blog stylings */

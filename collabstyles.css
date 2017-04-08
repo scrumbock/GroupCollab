@@ -198,45 +198,56 @@ body {
 }
 
 /*footer stylings*/
-.footer {
+footer {
+	display: block;
 	position: fixed;
 	bottom: 0;
 	width: 100%;
-	height: 150px;
+	min-height: 60px;
+	padding-top: 10px;
 	background-color: #df97a4;
 	color: white;
+	border-top: 2px solid darkgrey;
+}
+footer p {
+	text-align: center;
+}
+footer p a {
+	margin: 10px;
 }
 
-.Footer-Nav-Menu ul {
+footer a {
+	text-decoration: none;
+	display: inline;
+	color: white;
+	font-family: 'Cabin', sans-serif;
+	font-size: 22px;
+	padding: 30px;
+}
+
+footer .social ul {
+	text-align: center;
 	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	overflow: hidden;
-	text-decoration: none;
-	color: white;
 }
-.Footer-Nav-Menu li {
-	float: left;
-}
-.Footer-Nav-Menu a {
-	padding: 20px;
-	font-family: 'Roboto Slab', sans-serif;
-	color: white;
-	font-size: 20px;
-	text-transform: capitalize;
-	text-decoration: none;
-}
-.Footer-Nav-Menu li a:hover:not(.active) {
-    background-color: #df97a4;
+footer .social li {
+	display: inline;
+	margin: 10px;
 }
 
-h3 {
-	color: white;
-	font-family: 'Roboto Slab', sans-serif;
+footer a:hover {
+	text-transform: uppercase;
 	font-weight: bold;
-	font-size: 26px;
-	margin-left: 50%;
+	color: #a8064c;
 }
+
+footer .cupcake-left {
+	width: 20%;
+	max-height: 50px;
+}
+/*end footer stylings*/
+
+
+/*blog stylings */
 
 .blog-article, .sidebar {
 	background-color: white;
@@ -289,3 +300,4 @@ h5 {
 	font-size: 14px;
 }
 
+/*end blog stylings */

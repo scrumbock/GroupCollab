@@ -193,9 +193,14 @@ body {
 		color: white;
 	}
 	.container {
-		display:flex;
-		justify-content: center;
 		margin-top: 240px;
+	}
+	footer {
+		position: static;
+	}
+	.photo-container div {
+		display: block;
+		width: 100%;
 	}
 }
 
@@ -247,10 +252,6 @@ footer a.active {
 	color: #a8064c;
 }
 
-footer .cupcake-left {
-	width: 20%;
-	max-height: 50px;
-}
 /*end footer stylings*/
 
 /*gallery stylings */
@@ -306,6 +307,8 @@ footer .cupcake-left {
 .nine {
 	background-image: url("http://static.kidspot.com.au/cm_assets/1238/race_track476x290-20150421122123.jpg~q75,dx330y198u1r1gg,c--.jpg");
 }
+/*end gallery stylings */
+
 /*blog stylings */
 
 .blog-article, .sidebar {

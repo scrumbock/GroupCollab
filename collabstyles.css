@@ -35,3 +35,47 @@ body {
 	font-weight: bold;
 	font-size: 36px;
 }
+
+#pink {
+	color: #df97a4;
+	font-size: 50px;
+	font-family: 'Roboto Slab', sans-serif;
+}
+
+#white {
+	color: #FFFFFF;
+	font-size: 50px;
+	font-family: 'Roboto Slab', sans-serif;
+}
+
+#body {
+	font-size: 30px;
+	font-family: "Roboto Slab", sans-serif;
+}
+
+.center {
+	text-align: center;
+	width: 100%;
+	margin: auto;
+	padding: 0px;
+	border: 5px solid pink;
+	background-color: #FFFFFF;
+}
+
+.ask {
+	float: left;
+	margin: 50px;
+	font-size: 60px
+}
+
+.center img {
+	float: left;
+}
+
+.clear {
+	clear: both;
+}
+
+#us {
+	font-size: 18px;
+}

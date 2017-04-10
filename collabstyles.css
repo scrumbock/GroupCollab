@@ -213,6 +213,8 @@ footer a.active {
 }
 
 .photo-container div {
+	position: relative;
+	float: left;
 	width: 30%;
 	height: 300px;
 	border: 3px solid lightblue;
@@ -222,6 +224,17 @@ footer a.active {
 	transition-property: width, height;
     transition-duration: 2s;
     opacity: .5;
+}
+h4 {
+	background: #26282b;
+	color: white;
+	font-family: 'Cabin', sans-serif;
+	text-align: center;
+	margin-bottom: 0;
+	position: absolute;
+	bottom: 0;
+	margin: 0;
+	width: 100%;
 }
 
 .photo-container div:hover {
@@ -256,13 +269,6 @@ footer a.active {
 }
 .nine {
 	background-image: url("http://static.kidspot.com.au/cm_assets/1238/race_track476x290-20150421122123.jpg~q75,dx330y198u1r1gg,c--.jpg");
-}
-
-.photo-container h4 {
-	background: darkred;
-	color: white;
-	font-family: 'Cabin', sans-serif;
-	text-align: center;
 }
 /*end gallery stylings */
 

@@ -460,5 +460,6 @@ h5 {
 	}
 	.blog-holder {
 		float: none;
+		display: none;
 	}
 }

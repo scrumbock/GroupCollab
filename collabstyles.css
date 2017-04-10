@@ -442,4 +442,9 @@ h5 {
 		display: block;
 		width: 100%;
 	}
+	.sidebar {
+		visibility: hidden;
+	}
+
+
 }

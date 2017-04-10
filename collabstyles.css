@@ -15,9 +15,13 @@ body {
 	display: none;
 }
 
+.clearfixer {
+	clear: both;
+}
+
 .container {
 	width: 90%;
-	margin: 175px auto 200px auto;
+	margin: 175px auto 170px auto;
 }
 
 .hamburglar {

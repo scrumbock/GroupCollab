@@ -6,27 +6,58 @@ body {
 	background-color: grey;
 	padding: 0;
 	margin: 0;
+	font-family: sans-serif;
 }
 
 @import url(https://fonts.googleapis.com/css?family=Roboto+Slab);
 
-.container {
-	background-color: white;
+.cake-mobile {
+	display: none;
 }
 
-.header {
-	height: 180px;
+.clearfixer {
+	clear: both;
+}
+
+.container {
+	width: 90%;
+	margin: 175px auto 170px auto;
+}
+
+.hamburglar {
+	display: none;
+}
+
+.header-big {
+	position: fixed;
+	width: 100%;
+	top: 0;
+}
+
+.pink-top {
 	background-color: #df97a4;
-	padding: 20px;
+	width: 100%;
+}
+
+.pink-top-mobile {
+	background-color: #df97a4;
+	width: 100%;
+	display: none;
+}
+
+.title, .nav {
+	background-color: #df97a4;
+	height: 100%;
+	width: 100%;
 }
 
 .cake {
 	background-image: url(https://img.clipartfox.com/fdfa054b8cb0ac6d245a06e8ac0accc2_free-happy-birthday-cake-image-happy-birthday-cake-clipart-transparent_2627-2846.png);
-	height: 200px;
-	width: 200px;
+	height: 150px;
+	width: 150px;
 	background-size: 100% 100%;
 	float: left;
-	margin-right: 70px;
+	margin: 10px 30px 0 20px;
 }
 
 .title {
@@ -79,3 +110,312 @@ body {
 #us {
 	font-size: 18px;
 }
+
+.nav ul {
+	list-style-type: none;
+	font-size: 20px;
+}
+
+.nav li {
+	display: inline-block;
+	margin: 5px 20px 5px 0;
+	border: 2px solid white;
+	padding: 5px 10px;
+	text-align: center;
+	min-width: 15%;
+}
+
+.nav li:hover {
+	background-color: pink;
+	font-variant: none;
+	text-transform: uppercase;
+}
+
+.nav a {
+	text-decoration: none;
+	color: white;
+	font-variant: small-caps;
+}
+
+.donate-button li {
+	background-color: white;
+	font-weight: bold;
+	color: black;
+}
+
+.donate-button li:hover {
+	background-color: pink;
+	color: white;
+}
+
+.active li {
+	font-variant: none;
+	text-transform: uppercase;
+	background-color: #d96177;
+}
+
+@media all and (min-width: 760px) and (max-width: 879px) {
+	.nav li {
+		display: inline;
+	}
+	.nav {
+		padding-bottom: 10px;
+	}
+}
+
+@media all and (max-width: 760px) {
+	.cake {
+		width: 150px;
+		height: 150px;
+	}
+	.nav li {
+		font-size: 13px;
+		margin: 0 5px 10px 0;
+	}
+	.container {
+		margin-top: 200px;
+	}
+}
+
+@media all and (max-width: 600px) {
+	.cake {
+		width: 115px;
+		height: 115px;
+	}
+	.title {
+		font-size: 30px;
+	}
+	.nav li {
+		font-size: 11px;
+		min-width: auto;
+		margin: 0 5px 10px 0;
+	}
+}
+
+@media all and (max-width: 480px) {
+	.cake {
+		display: none;
+	}
+	.cake-mobile {
+		display: block;
+		background-image: url(https://img.clipartfox.com/fdfa054b8cb0ac6d245a06e8ac0accc2_free-happy-birthday-cake-image-happy-birthday-cake-clipart-transparent_2627-2846.png);
+		height: 100px;
+		width: 100px;
+		background-size: 100% 100%;
+		margin: 10px auto;
+	}
+	.header-big {
+		background-color: #df97a4;
+	}
+	.active li {
+		background: none;
+		font-variant: small-caps;
+		text-transform: none;
+	}
+	.header {
+		padding-top: 20px;
+	}
+	.title {
+		font-size: 25px;
+		text-align: center;
+	}
+	ul {
+		margin: 0;
+		display: inline-block;
+		padding: 0;
+	}
+	.nav {
+		margin: 0 auto;
+		text-align: center;
+	}
+	.nav li {
+		border: none;
+		margin: 0;
+		font-size: 15px;
+	}
+	.donate-button li {
+		display: block;
+		background: none;
+		border: none;
+		color: white;
+	}
+	.container {
+		margin-top: 240px;
+	}
+	footer {
+		position: static;
+	}
+	.photo-container div {
+		display: block;
+		width: 100%;
+	}
+}
+
+/*footer stylings*/
+footer {
+	display: block;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	min-height: 60px;
+	padding-top: 10px;
+	background-color: #df97a4;
+	color: white;
+	border-top: 2px solid darkgrey;
+}
+footer p {
+	text-align: center;
+}
+footer p a {
+	margin: 10px;
+}
+
+footer a {
+	text-decoration: none;
+	display: inline;
+	color: white;
+	font-family: 'Cabin', sans-serif;
+	font-size: 22px;
+	padding: 30px;
+}
+
+footer .social ul {
+	text-align: center;
+	list-style-type: none;
+}
+footer .social li {
+	display: inline;
+	margin: 10px;
+}
+
+footer a:hover {
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #a8064c;
+}
+footer a.active {
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #a8064c;
+}
+
+/*end footer stylings*/
+
+/*gallery stylings */
+
+.photo-container {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.photo-container div {
+	width: 30%;
+	height: 300px;
+	border: 3px solid lightblue;
+	margin: 10px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	transition-property: width, height;
+    transition-duration: 2s;
+    opacity: .5;
+}
+
+.photo-container div:hover {
+    width: 350px;
+    height: 350px;
+    opacity: 1;
+}
+
+.one {
+	background-image: url("https://static2.stuff.co.nz/1355356453/455/8075455.jpg");
+}
+.two {
+	background-image: url("http://2.bp.blogspot.com/_6XzT-Th0ewE/TF12krrY0bI/AAAAAAAAArA/5lVCxzbZTPI/s1600/P1070428.JPG");
+}
+.three {
+	background-image: url("http://wkow.images.worldnow.com/images/12451060_G.jpg");
+}
+.four {
+	background-image: url("http://lh5.ggpht.com/-eomVl8aBRS0/Tg0ulGs7cdI/AAAAAAAAFe0/ySV2mKOXSZs/027%252520W_thumb%25255B1%25255D.jpg?imgmax=800");
+}
+.five {
+	background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQ37yeNHGbYZJvF1ecGInFgGsnxjrlyPrSZFWOIRUSQuBxavVi_g");
+}
+.six {
+	background-image: url("http://cdn1-www.momtastic.com/assets/uploads/2016/09/the-birthday-party-project-2-opt.jpg");
+}
+.seven {
+	background-image: url("http://lh6.ggpht.com/-qep4Ce6Q7Ww/Tg0ummvWMZI/AAAAAAAAFe8/q9tw9rpaLdI/227-edit%252520W_thumb.jpg?imgmax=800");
+}
+.eight {
+	background-image: url("http://cdn.newsapi.com.au/image/v1/58f35481622d1a4c4c502cbd2bb6caae?width=1024");
+}
+.nine {
+	background-image: url("http://static.kidspot.com.au/cm_assets/1238/race_track476x290-20150421122123.jpg~q75,dx330y198u1r1gg,c--.jpg");
+}
+
+.photo-container h4 {
+	background: darkred;
+	color: white;
+	font-family: 'Cabin', sans-serif;
+	text-align: center;
+	margin-bottom: 0;
+
+}
+/*end gallery stylings */
+
+/*blog stylings */
+
+.blog-article, .sidebar {
+	background-color: white;
+}
+
+.blog {
+	float: left;
+	width: 70%;
+	margin-bottom: 30px;
+}
+
+.sidebar {
+	width: 26%;
+	float: right;
+	margin-bottom: 10px;
+	padding: 5px;
+	font-size: 12px;
+}
+
+.blog-holder {
+	height: 100px;
+	margin: 0;
+}
+
+.blog-title {
+	font-family: 'Roboto Slab', sans-serif;
+	text-align: center;
+	font-size: 20px;
+	padding-bottom: 7px;
+}
+
+.blog-article {
+	padding: 20px;
+}
+
+.author {
+	width: 100px;
+	height: 100px;
+	margin: 10px auto;
+	background-size: 100% 100%;
+	background-image: url(images/bridget.jpg);
+}
+
+h5 {
+	margin: 0;
+	font-size: 15px;
+}
+
+.sidebar ul {
+	font-size: 14px;
+}
+
+/*end blog stylings */

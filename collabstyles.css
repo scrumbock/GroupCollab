@@ -445,9 +445,20 @@ h5 {
 	.sidebar {
 		visibility: hidden;
 	}
-	.blog-article {
+	.blog {
 		margin: 0 auto;
+		width: 100%;
+		float: none;
+		display: block;
 	}
-
-
+	.blog-title {
+		display: block;
+	}
+	.blog-article {
+		float: none;
+		display: block;
+	}
+	.blog-holder {
+		float: none;
+	}
 }

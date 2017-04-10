@@ -445,6 +445,9 @@ h5 {
 	.sidebar {
 		visibility: hidden;
 	}
+	.blog-article {
+		margin: 0 auto;
+	}
 
 
 }

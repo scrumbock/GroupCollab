@@ -345,7 +345,7 @@ h5 {
 		margin-top: 200px;
 	}
 	footer {
-		display: none;
+		max-height: 100px;
 	}
 }
 

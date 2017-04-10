@@ -347,6 +347,8 @@ h5 {
 	footer {
 		max-height: 100px;
 	}
+	.photo-container div {
+	width: 90%;
 }
 
 @media all and (max-width: 600px) {

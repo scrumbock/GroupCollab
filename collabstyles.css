@@ -154,103 +154,6 @@ body {
 	background-color: #d96177;
 }
 
-@media all and (min-width: 760px) and (max-width: 879px) {
-	.nav li {
-		display: inline;
-	}
-	.nav {
-		padding-bottom: 10px;
-	}
-}
-
-@media all and (max-width: 760px) {
-	.cake {
-		width: 150px;
-		height: 150px;
-	}
-	.nav li {
-		font-size: 13px;
-		margin: 0 5px 10px 0;
-	}
-	.container {
-		margin-top: 200px;
-	}
-}
-
-@media all and (max-width: 600px) {
-	.cake {
-		width: 115px;
-		height: 115px;
-	}
-	.title {
-		font-size: 30px;
-	}
-	.nav li {
-		font-size: 11px;
-		min-width: auto;
-		margin: 0 5px 10px 0;
-	}
-}
-
-@media all and (max-width: 480px) {
-	.cake {
-		display: none;
-	}
-	.cake-mobile {
-		display: block;
-		background-image: url(https://img.clipartfox.com/fdfa054b8cb0ac6d245a06e8ac0accc2_free-happy-birthday-cake-image-happy-birthday-cake-clipart-transparent_2627-2846.png);
-		height: 100px;
-		width: 100px;
-		background-size: 100% 100%;
-		margin: 10px auto;
-	}
-	.header-big {
-		background-color: #df97a4;
-	}
-	.active li {
-		background: none;
-		font-variant: small-caps;
-		text-transform: none;
-	}
-	.header {
-		padding-top: 20px;
-	}
-	.title {
-		font-size: 25px;
-		text-align: center;
-	}
-	ul {
-		margin: 0;
-		display: inline-block;
-		padding: 0;
-	}
-	.nav {
-		margin: 0 auto;
-		text-align: center;
-	}
-	.nav li {
-		border: none;
-		margin: 0;
-		font-size: 15px;
-	}
-	.donate-button li {
-		display: block;
-		background: none;
-		border: none;
-		color: white;
-	}
-	.container {
-		margin-top: 240px;
-	}
-	footer {
-		position: static;
-	}
-	.photo-container div {
-		display: block;
-		width: 100%;
-	}
-}
-
 /*footer stylings*/
 footer {
 	display: block;
@@ -419,3 +322,106 @@ h5 {
 }
 
 /*end blog stylings */
+
+@media all and (min-width: 760px) and (max-width: 879px) {
+	.nav li {
+		display: inline;
+	}
+	.nav {
+		padding-bottom: 10px;
+	}
+}
+
+@media all and (max-width: 760px) {
+	.cake {
+		width: 150px;
+		height: 150px;
+	}
+	.nav li {
+		font-size: 13px;
+		margin: 0 5px 10px 0;
+	}
+	.container {
+		margin-top: 200px;
+	}
+	footer {
+		display: none;
+	}
+}
+
+@media all and (max-width: 600px) {
+	.cake {
+		width: 115px;
+		height: 115px;
+	}
+	.title {
+		font-size: 30px;
+	}
+	.nav li {
+		font-size: 11px;
+		min-width: auto;
+		margin: 0 5px 10px 0;
+	}
+	footer {
+		display: none;
+	}
+}
+
+@media all and (max-width: 480px) {
+	.cake {
+		display: none;
+	}
+	.cake-mobile {
+		display: block;
+		background-image: url(https://img.clipartfox.com/fdfa054b8cb0ac6d245a06e8ac0accc2_free-happy-birthday-cake-image-happy-birthday-cake-clipart-transparent_2627-2846.png);
+		height: 100px;
+		width: 100px;
+		background-size: 100% 100%;
+		margin: 10px auto;
+	}
+	.header-big {
+		background-color: #df97a4;
+	}
+	.active li {
+		background: none;
+		font-variant: small-caps;
+		text-transform: none;
+	}
+	.header {
+		padding-top: 20px;
+	}
+	.title {
+		font-size: 25px;
+		text-align: center;
+	}
+	ul {
+		margin: 0;
+		display: inline-block;
+		padding: 0;
+	}
+	.nav {
+		margin: 0 auto;
+		text-align: center;
+	}
+	.nav li {
+		border: none;
+		margin: 0;
+		font-size: 15px;
+	}
+	.donate-button li {
+		display: block;
+		background: none;
+		border: none;
+		color: white;
+	}
+	.container {
+		margin-top: 240px;
+	}
+	footer {
+		position: static;
+	}
+	.photo-container div {
+		display: block;
+		width: 100%;
+	}
+}

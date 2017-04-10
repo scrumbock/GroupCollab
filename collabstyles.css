@@ -161,16 +161,12 @@ footer {
 	bottom: 0;
 	width: 100%;
 	min-height: 60px;
-	padding-top: 10px;
+	max-height: 100px;
+	padding-top: 15px;
 	background-color: #df97a4;
 	color: white;
 	border-top: 2px solid darkgrey;
-}
-footer p {
 	text-align: center;
-}
-footer p a {
-	margin: 10px;
 }
 
 footer a {
@@ -178,13 +174,14 @@ footer a {
 	display: inline;
 	color: white;
 	font-family: 'Cabin', sans-serif;
-	font-size: 22px;
-	padding: 30px;
+	font-size: 16px;
+	padding: 20px;
 }
 
 footer .social ul {
 	text-align: center;
 	list-style-type: none;
+	padding: 0;
 }
 footer .social li {
 	display: inline;
@@ -196,10 +193,16 @@ footer a:hover {
 	font-weight: bold;
 	color: #a8064c;
 }
+
 footer a.active {
 	text-transform: uppercase;
 	font-weight: bold;
 	color: #a8064c;
+}
+
+.copyright {
+	font-size: 10px;
+	text-align: center;
 }
 
 /*end footer stylings*/

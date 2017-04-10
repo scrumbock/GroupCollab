@@ -83,6 +83,7 @@ body {
 #body {
 	font-size: 30px;
 	font-family: "Roboto Slab", sans-serif;
+	color: white;
 }
 
 .center {
@@ -110,6 +111,7 @@ body {
 
 #us {
 	font-size: 18px;
+	color: white;
 }
 
 .nav ul {
